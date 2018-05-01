@@ -18,6 +18,11 @@ git reflog
 # 查看指向
 git reset --hard HEAD^
 
+# 查看git提交状态
+git status
+
+# git 状态
+git status
 
 ```
 
