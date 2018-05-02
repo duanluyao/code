@@ -27,5 +27,19 @@ git checkout -- name.name
 # 修改工作区内容，并添加到暂存区，丢弃修改，分2步，
 git reset HEAD name.name
 git checkout -- name.name
+
+# 删除文件
+git rm file.name
+
+# 误删恢复
+git checkout -- file.name
+
+# 创建ssh key
+ssh-keygen -t rsa -C "youremail@example.com"
+
+# 把本地库推送到远程库上
+git push -u origin master
+
+
 ```
 
