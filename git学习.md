@@ -1,7 +1,7 @@
 # git学习笔记
 
 
-```python
+```shell
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 
@@ -38,8 +38,10 @@ git checkout -- file.name
 ssh-keygen -t rsa -C "youremail@example.com"
 
 # 把本地库推送到远程库上
+# 第一提交
 git push -u origin master
-
+# 本地提交
+git push origin master
 
 ```
 
